@@ -1,0 +1,5 @@
+You're given a source code file in Java
+
+Just look at the code and the flag is right there at the bottom
+
+Flag: picoCTF{w4rm1ng_Up_w1tH_jAv4_87f51143e4b}
