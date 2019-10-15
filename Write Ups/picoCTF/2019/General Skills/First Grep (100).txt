@@ -1,0 +1,7 @@
+A big ass file is given with a bunch of stuff in in
+
+Use grep to find the picoCTF flag
+
+<COMMAND TO SOLVE> grep picoCTF* first_grep_file
+
+Flag: picoCTF{grep_is_good_to_find_things_4b2451ea}

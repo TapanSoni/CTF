@@ -1,0 +1,7 @@
+You need to pipe the data and grep it from the netcat command to a file
+
+Connect to: 2019shell1.picoctf.com on port 21957
+
+<COMMAND TO SOLVE> nc 2019shell1.picoctf.com 21957 | grep picoCTF*
+
+Flag: picoCTF{digital_plumb3r_c1082838}

@@ -1,0 +1,7 @@
+You are given a file called "strings"
+
+You have to find the flag in it without running the file
+
+<COMMAND TO SOLVE> strings strings | grep picoCTF*
+
+Flag: picoCTF{5tRIng5_1T_c611cac7}

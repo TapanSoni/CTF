@@ -1,0 +1,5 @@
+bDNhcm5fdGgzX3IwcDM1 is given
+
+<COMMAND TO SOLVE> echo bDNhcm5fdGgzX3IwcDM1 | base64
+
+Flag: picoCTF{l3arn_th3_r0p35}
