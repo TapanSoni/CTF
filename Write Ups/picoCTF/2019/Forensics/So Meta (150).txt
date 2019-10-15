@@ -1,0 +1,10 @@
+You are given a image -- pico_img.jpg
+
+By the title of this challenge, its probably got something to do 
+with metadata
+
+Same as the Glory of garden one
+
+<COMMAND TO SOLVE> xxd pico_img.jpg
+
+Flag: picoCTF{s0_m3ta_43f253bb}

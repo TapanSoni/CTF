@@ -1,0 +1,6 @@
+This uses the same procedure as WebNet 0 but instead of the flag being in the Header part of the stream, it's 
+in the "data" part of the stream.
+
+Just use CTRL+F or the Find box in the Stream window
+
+Flag: picoCTF{honey.roasted.peanuts}

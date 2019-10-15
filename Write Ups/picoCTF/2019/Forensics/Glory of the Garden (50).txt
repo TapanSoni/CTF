@@ -1,0 +1,8 @@
+Easy one. You are given a picture -- garden.jpg and you have to
+find something in it. 
+
+<COMMDAND TO SOLVE> xxd garden.jpg
+
+The last line is the flag in the hex dump
+
+Flag: picoCTF{more_than_m33ts_the_3y31e0af5C7}

@@ -1,0 +1,21 @@
+In this challenge you are given a file called 1000.tar
+
+It's tar'd 1000 times -- damn
+
+You need to uncompress it to find the flag.png picture that has the
+flag in it
+
+You could just manually untar it but that's stupid
+
+I wrote a shell script to do it in about 1 minute
+
+#!/bin/bash
+
+for((i = 1000; i >= 1; i--))
+do
+    sudo tar -xvf "${i}.tar";
+done
+
+Make sure to chmod +x this file so it's executable
+
+Flag: picoCTF{l0t5_0f_TAR5}

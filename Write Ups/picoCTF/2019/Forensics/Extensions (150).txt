@@ -1,0 +1,7 @@
+This one you are given a flag.txt file
+
+It's not a .txt file, it's a image file
+
+Open it with an image viewer
+
+Flag: picoCTF{now_you_know_about_extensions}

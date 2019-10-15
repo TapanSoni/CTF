@@ -1,0 +1,15 @@
+In this challenge you are given a .pcap file
+
+.pcap files are used in Wireshark
+
+Open the capture.pcap file in Wireshark
+
+Analyze > Follow > UDP Stream
+
+You'll see a window pop up which shows the progress of information
+with UDP packets.
+
+On the bottom right, click the Up arrow on the Stream counter
+until you see the flag
+
+Flag: picoCTF{StaT31355_636f6e6e}
