@@ -1,0 +1,6 @@
+Another easy one -- you are given a zipped folder
+
+Unzip it to find the flag. There is a picture inside the unzipped
+folder which has the flag in it
+
+Flag: picoCTF{unz1pp1ng_1s_3a5y}
