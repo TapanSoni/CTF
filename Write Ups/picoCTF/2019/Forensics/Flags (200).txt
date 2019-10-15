@@ -1,0 +1,7 @@
+In this challenge, you are given a flag.png file. It contains
+a bunch of flags. These flags are maritime flags that convert over
+to the military phonetic alphabet and numbers
+
+When you look at a chart for these flags, you can make out the flag
+
+Flag: PICOCTF{F1AG5AND5TUFF}
