@@ -1,0 +1,9 @@
+Hidden flag in the file /problems/where-is-the-file_4_f26b413d005c16c61f127740ab242b35
+
+Easy
+
+<COMMAND TO SOLVE> ls -la
+
+You will see a hidden file -- .cant_see_me
+
+Flag: picoCTF{w3ll_that_d1dnt_w0RK_cb4a5081}

@@ -1,0 +1,19 @@
+In this one -- you have to use the built in terminal that is provided
+
+Use grep again
+
+The flag is in /problems/first-grep--part-ii_3_b4bf3244c2886de1566a28c1b5a465ae/files
+
+But the "files" is a directory -- grep can only look inside files
+
+So:
+
+<COMMAND TO SOLVE> grep picoCTF* /problems/first-grep--part-ii_3_b4bf3244c2886de1566a28c1b5a465ae/files/files*/*
+
+Because inside files is several directorys called file0, file1, file2 etc.
+
+/problems/first-grep--part-ii_3_b4bf3244c2886de1566a28c1b5a465ae/files/file2/file5:picoCTF{grep_r_to_find_this_3675d798}
+
+OR -- You can use grep -r picoCTF /problems/first-grep--part-ii_3_b4bf3244c2886de1566a28c1b5a465ae/files and that would work too
+
+Flag: picoCTF{grep_r_to_find_this_3675d798}
