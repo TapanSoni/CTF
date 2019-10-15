@@ -1,0 +1,15 @@
+In this Valult 4 door -- you are given this array
+
+1st line is ASCII --> convert to text
+2nd line is hex --> convert to ASCII text
+3rd line is octal --> convert to text
+4th line is just plain characters --> no need to convert, just write them at the end
+
+106 , 85  , 53  , 116 , 95  , 52  , 95  , 98  ,
+0x55, 0x6e, 0x43, 0x68, 0x5f, 0x30, 0x66, 0x5f,
+0142, 0131, 0164, 063 , 0163, 0137, 062 , 060 ,
+'1' , 'b' , '3' , '5' , '2' , 'd' , '6' , 'c' ,
+
+j   U   5   t   _   4   _   b   U   n   C   h   _   0   f   _   b   Y   t   3   s   _   2   0   1   b   3   5   2   d   6   c
+
+picoCTF{jU5t_4_bUnCh_0f_bYt3s_201b352d6c}

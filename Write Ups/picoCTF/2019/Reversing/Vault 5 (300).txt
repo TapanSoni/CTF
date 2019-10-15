@@ -1,0 +1,10 @@
+This one is easy
+
+You are given a source file, at the bottom of it, is a comparison where
+the input string, once it has gone through URL encoding, and base64 encoding should equal to
+
+Final String > Base 64 decode > URL decode > flag
+
+Use https://encoding.tools to make this really easy
+
+Flag: picoCTF{c0nv3rt1ng_fr0m_ba5e_64_1177f783}

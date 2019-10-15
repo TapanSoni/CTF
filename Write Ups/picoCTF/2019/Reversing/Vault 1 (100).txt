@@ -1,0 +1,7 @@
+This one was pretty cool
+You're given a source code file and this time, the password function specifies a password length (32) and it matches each index
+to a particular character giving away the password.
+
+Just make 32 blanks, and each index is the character of 1 letter of the password -- just map all charAt()'s to each blank
+
+Flag: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_2487f0}

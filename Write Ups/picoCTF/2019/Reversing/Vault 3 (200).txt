@@ -1,0 +1,10 @@
+Did too much work for this
+
+Add a printline after String s = String(buffer) to print out the new string s
+
+When you compile and run the program, it will ask you to enter a password
+
+Enter the one that is listed in the .equals() parameter and you will see the accurate
+password
+
+Flag: picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_c33f38}
