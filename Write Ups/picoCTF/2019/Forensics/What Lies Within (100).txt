@@ -1,0 +1,7 @@
+This one uses Stegnography
+
+Go to: https://stylesuxx.github.io/steganography/
+
+Select Decode, upload the image, the flag is hidden in there.
+
+Flag: picoCTF{h1d1ng_1n_th3_b1t5}
