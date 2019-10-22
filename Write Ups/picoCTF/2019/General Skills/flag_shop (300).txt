@@ -1,0 +1,7 @@
+This one is pretty cool. You have to netcat into a server and it shows you a flag shop
+The twist is that when you are buying a knock off flag (option 2 > option 1), you need to enter a large
+value to mess with the buffer -- I uses 222222222 and then my balance was really large
+
+I was than able to buy the correct flag 1337 --> Which printed out the pico flag
+
+Flag: picoCTF{m0n3y_bag5_325fcd2e}
