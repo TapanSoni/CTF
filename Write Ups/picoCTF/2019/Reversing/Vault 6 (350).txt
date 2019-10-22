@@ -1,0 +1,26 @@
+This one is another vault door.
+
+You are given a java file where the input is XORd with a bunch of bytes to validate the password
+
+Just take the given byte array and XOR it with the 55 to get the password.
+
+I made an extra function and called it in the main method:
+
+Function:
+
+public static void print_flag(String password)
+{
+    byte[] myBytes = { 0x3b, 0x65, 0x21, 0xa, 0x38, 0x0, 0x36, 0x1d, 0xa, 0x3d, 0x61, 0x27, 0x11, 0x66, 0x27, 0xa,
+            0x21, 0x1d, 0x61, 0x3b, 0xa, 0x2d, 0x65, 0x27, 0xa, 0x67, 0x6d, 0x33, 0x34, 0x6c, 0x60, 0x33, };
+
+    byte[] passBytes = password.getBytes();
+    System.out.print("picoCTF{");
+    for (int i = 0; i < 32; i++) {
+        System.out.printf("%c", myBytes[i] ^ 0x55);
+    }
+    System.out.println("}");
+}
+
+This will take the the byte array, XOR it with 55, then print it out.
+
+Flag: picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_28fa95f}
