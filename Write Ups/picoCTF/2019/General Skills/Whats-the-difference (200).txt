@@ -1,0 +1,9 @@
+This one was a pain in the ass, I had to look up how to do it.
+
+Here is the answer from: https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/whats-the-difference.md
+
+Basically, you need to use cmp -l <file1> <file2> to compare both files byte by byte and then decode that ASCII into text
+
+Here is the command that was used: cmp -l cattos.jpg kitters.jpg | gawk '{printf "%c", strtonum(0$2)}' && echo
+
+Flag: picoCTF{th3yr3_a5_d1ff3r3nt_4s_bu773r_4nd_j311y_aslkjfdsalkfslkflkjdsfdszmz10548}
