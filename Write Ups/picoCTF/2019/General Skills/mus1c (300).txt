@@ -1,0 +1,11 @@
+This one was pretty cool, it uses the Rockstar programming language.
+
+To finish this challenge, go to the official Rockstar language page: https://codewithrockstar.com/online
+
+You can try the rockstar editor online!
+
+Paste in the code and you'll get a bunch of ascii -- convert that to text and you get: rrrocknrn0113r
+
+Put it in the standard flag format.
+
+Flag: picoCTF{rrrocknrn0113r}
