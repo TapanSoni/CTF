@@ -1,0 +1,9 @@
+This is a Vignere cipher.
+
+Go to: https://www.guballa.de/vigenere-solver
+
+Plug in the text that is retrieved from the netcat response
+
+The flag should appear in the clear text
+
+Flag: picoCTF{b311a50_0r_v1gn3r3_c1ph3raac148e7}
