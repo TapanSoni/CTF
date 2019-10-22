@@ -1,0 +1,10 @@
+In this challenge, you are given a text file with spaces and tabs in it
+
+There are two types of spaces -- standard tab and a unicode space
+
+Create a python program that reads in the file, replaces the standard space -- \0x20 with a binary 1 in bytes and the unicode space
+\xe2,\x80,and \x83 as a 0 in bytes.
+
+Then, decode that data to ascii then print it out
+
+Flag: picoCTF{not_all_spaces_are_created_equal_f006c045f6b402ce4bc749dc7a262380}
