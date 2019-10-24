@@ -1,0 +1,9 @@
+This is is a morse code problem
+
+You connect to a netcat server: nc 2019shell1.picoctf.com @ port 12285
+
+You get a bunch of morse code back
+
+Translate it using any morse code translator
+
+Flag: picoctf{m0rs3c0d31sfun1137903549} ==> should be all CAPS

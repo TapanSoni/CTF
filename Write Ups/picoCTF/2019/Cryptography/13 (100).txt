@@ -1,0 +1,11 @@
+Rot 13
+
+This is a rot 13 problem
+
+I used an online converter but here is the tr (transform) command:
+
+String to convert: cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+
+echo cvpbPGS{abg_gbb_onq_bs_n_ceboyrz} | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+Flag: picoCTF{not_too_bad_of_a_problem}

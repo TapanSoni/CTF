@@ -1,0 +1,7 @@
+This one is easy. You are given a picture with numbers
+
+16 9 3 15 3 20 6 {20 8 5 14 21 13 2 5 18 19 13 1 19 15 14}
+
+Each # corresponds with its letter counterpart in the alphabet
+
+Flag: PICOCTF{THENUMBERSMASON} -- Sons of bitches! That was a good one!

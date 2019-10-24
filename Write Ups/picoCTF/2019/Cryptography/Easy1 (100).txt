@@ -1,0 +1,21 @@
+This one is about 1 time pad cryptography
+
+Given encrypted flag: UFJKXQZQUNB 
+
+Given key: SOLVECRYPTO
+
+table.txt is given (in current folder)
+
+Solve for the flag
+
+Easy
+
+Map the key to the encrypted flag:
+
+KEY: S O L V E C R Y P T O
+ENC: U F J K X Q Z Q U N B
+
+look at the top bar of the text file and find where the letter of the ENC occurs under the letter of KEY
+then look at the side bar to find the decrypted version
+
+Flag: picoCTF{CRYPTOISFUN}
