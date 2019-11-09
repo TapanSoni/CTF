@@ -31,3 +31,27 @@ do
     ((m=m+1));
     sudo tar -cvf "${m}.tar" "${i}.tar";
 done
+
+***********************************************************************
+To compress a file 1000 times with zip:
+
+Remember to zip 1000.tar to 1001.zip
+
+#!/bin/bash
+
+for((i = 1001; i < 2000; i++))
+do
+    m=$i;
+    ((m=m+1));
+    sudo zip "${m}.zip" "${i}.zip";
+done
+
+***********************************************************************
+To uncompress a file 1000 times with zip:
+
+#!/bin/bash
+
+for((i = 2000; i > 1000; i--))
+do
+    sudo unzip "${i}.zip";
+done
